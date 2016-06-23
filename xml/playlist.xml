@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist>
+   <sound src="../mp3/BlackAsSin.mp3" stream="true" soundbuffer="60">Black As Sin - The Barkers</sound>
+   <sound src="../mp3/moths.mp3" stream="true" soundbuffer="60">The Moths - The Barkers</sound>
+   <sound src="../mp3/02 Track 2.mp3" stream="true" soundbuffer="60">Holly Shit - The Barkers</sound>
+   <sound src="../mp3/goodgolly.mp3" stream="true" soundbuffer="60">Good Golly Miss Molly - The Barkers</sound>
+   <sound src="../mp3/danger.mp3" stream="true" soundbuffer="60">Danger! - The Barkers</sound>
+   <sound src="../mp3/Crossroad final mix.mp3" stream="true" soundbuffer="60">Crossroad - Diego Garrido</sound>
+   <sound src="../mp3/Interlude I-Senseless.mp3" stream="true" soundbuffer="60">Interlude I-Senseless - Diego Garrido</sound>   
+   <sound src="../mp3/three by four.mp3" stream="true" soundbuffer="60">Three by Four - Diego Garrido</sound>
+   <sound src="../mp3/bi bi trucutrun wojteks solo.mp3" stream="true" soundbuffer="60">Bi Bi Trucutrun - Wojteks Solo</sound>
+   <sound src="../mp3/jam.mp3" stream="true" soundbuffer="60">Jam Session</sound> 
+</playlist>

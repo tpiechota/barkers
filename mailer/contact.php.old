@@ -1,0 +1,52 @@
+<?php
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$comment = $_POST['comment'];
+
+
+if (!isset ($name) || $name == '')
+{
+    exit ('&message=Error! Name missing.&');
+}
+
+if (!isset ($email) || $email == '')
+{
+    exit ('&message=Error! Email missing.&');
+}
+
+if (!isset ($comment) || $comment == '')
+{
+    exit ('&message=Error! Comment missing.&');
+}
+
+$comment = str_replace ("\r", "\n", $comment);
+
+
+$to = 'algahaim@interia.pl';
+$subject = $name;
+
+$message = '';
+$message .= "\n";
+$message .= "Subject: $name";
+$message .= "\n\n";
+$message .=  "E-mail: $email";
+$message .= "\n\n\n\n";
+$message .= "Comment:\n\n$comment";
+
+$sent = mail ($to, $subject, $message);
+
+
+if ($sent)
+{
+ exit ('&message=Success! Email sent. Thank you very much for your comment.&');
+}
+else
+{
+ exit ('&message=Error! Sorry... Try again later please.&');
+}
+
+?>
+
+
+?>

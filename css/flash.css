@@ -1,0 +1,75 @@
+body {
+	font-family: verdana, tahoma;
+	color: #FEF8E8;
+	margin-left: 10;
+	margin-top: 10;
+	margin-right: 0;
+	margin-bottom: 10;
+	text-align: justify;
+	}
+a:link {
+	color: #DAC265;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+a:visited {
+	color: #000066;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a:active {
+	color: #CC9900;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.white {
+	font-family: _typewriter;
+	color: #FFFFFF;
+	text-indent: 20px;
+}
+.boldIta {
+	font-weight: bold;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+.bold {
+	font-weight: bold;
+	font-size: 14px;
+}
+.crew {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	color: #D4D0C8;
+}
+.fLetter {
+	font-size: 16px;
+	font-weight: bold;
+}
+.center {
+	text-align: center;
+}
+.specChar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+.bio {
+	text-align: center;
+	vertical-align: middle;
+}
+p{
+	text-indent: 20px;
+}
+.cent_align {
+	text-align: center;
+}
